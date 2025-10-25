@@ -1,21 +1,11 @@
-# SpiritedDS
-An uninspired card game for the Nintendo DS
+It's been two years. I declare Spirited DS to be open source. The secrets of the AI cheating, the nonworking(?) unlockables, the abandoned attempt at sound, the 128x128 portraits, the slightly-off Python script test for the mechanics, the 33 card deck, the possibly unattainable tie screen and other odds and ends are here laid bare. There was some Krita scripting to make the palettes work, but that isn't worth the effort to fish out. There isn't anything worth stealing.
 
-Spirited was a series about a rock star ghost who falls in love with an Australian dentist, fresh from the golden age of mad-lib television. Outside of a spartan DVD release, the series produced no merchandise...
+Short background:
 
-Until now.
+This was made for a game jam of Darwin's Tropicon 2023. The idea was kicking around for a bit, so it probably would have been made anyway. The event promised floorspace for the public to try entries, and they had a few local streamers tied to the thing. All nice things, because this didn't have much of an audience otherwise. I gave notice of my platform of choice well in advance, and was assured that they already had a homebrew guy so this wouldn't be an issue.
 
-Today, I introduce you to Spirited DS, a barebones implementation of how I assume Top Trumps works, featuring 64x64 headshots of beloved Spirited characters, on the Nintendo DS. See how I feel these characters rate in 5 absolutely subjective qualities.
+It sat at zero downloads for the duration of the event, and the streamers, from what I could find of them, looked to have stuck to Mario World romhacks for the weekend.
 
-Does it fall under fair use? Who knows? But I don't think I'm causing much damage to a thirteen year old series on a sub-240p display, even if there are two of them.
+I had also submitted a few plainer artworks to the event (the non-AI portion of their competition, to be clear), but was told that that bit was for locals only. One was of a simple wizard, and the other was of Conan the Barbarian explaining his religion to Peter Griffin. I may add them here with the Krita scripts and other non-build things if I can get them from the old laptop (it isn't a pleasure to use, and its slow emulation is why I didn't realise that the 128x128 portraits were viable until it was too late).
 
-The game is provided as a .nds file, suitable for a flashcart, modded 3DS, or emulator of your choice.
-
-Tragically, there is no sound. Anyone who can help with that probably has better things to do.
-
-Built with NightFoxLib (which feeds off of DevKitPro, LibNDS). Code was written in C++ in Notepad. Python was used to test some logic, and to process pictures from Krita.
-
-Basic rules are: You pick one of five qualities listed on your card. If your value is bigger than your opponent's you win their card, and both cards go to the bottom of your deck. Lose, and it's your opponent's turn. They play by the same rules, and the game ends when one player has no more cards. It was primitive and dated even by late-seventies standards.
-
-
-Originally published to itch.io in November 2023. On GitHub for submission to Universal-DB.
+Small plans were made to reskin it to Optics (2025), but never followed far.
